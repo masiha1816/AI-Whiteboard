@@ -38,12 +38,53 @@ AI Whiteboard is a real-time computer vision application that lets users draw in
 - MediaPipe
 - NumPy
 
-## How to Run
+## How It Works
+The webcam captures video frames in real time.
 
-1. Install dependencies:
+MediaPipe detects and tracks the user's hand landmarks.
 
-```bash
-pip3 install -r requirements.txt
-```
+The app identifies finger positions and gestures, then uses OpenCV to draw on a digital canvas based on the movement of the index finger.
+
+Different modes allow the user to draw, erase, change colors, fill shapes, and interact with the whiteboard.
+
+## Why I Built This
+
+I built this project to practice computer vision, hand gesture recognition, and real-time user interaction.
+
+The goal was to create a fun and visual AI project that shows how computer vision can turn simple hand gestures into an interactive tool.
+
+This project helped me better understand:
+
+- Real-time video processing
+- Hand landmark detection
+- Gesture-based controls
+- Drawing logic with OpenCV
+- Building interactive AI portfolio projects
+
+## Requirements
+
+Make sure your computer has:
+
+Python installed
+A working webcam
+Camera permissions enabled
+Required Python packages installed
+
+## Future Improvements
+
+Some features I would like to add next:
+
+Gesture-based undo and redo
+Save drawings as image files
+Better shape detection
+Text recognition
+Smoother drawing
+Improved UI
+More drawing tools
+Presentation mode
+Project Status
+
+## Author 
+Built by Nargess Hassani
 
 This project demonstrates real-time computer vision, hand gesture recognition, user interaction design, and basic shape recognition using Python, OpenCV, and MediaPipe.
