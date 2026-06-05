@@ -65,24 +65,24 @@ This project helped me better understand:
 
 Make sure your computer has:
 
-Python installed
-A working webcam
-Camera permissions enabled
-Required Python packages installed
+- Python installed
+- A working webcam
+- Camera permissions enabled
+- Required Python packages installed
 
 ## Future Improvements
 
 Some features I would like to add next:
 
-Gesture-based undo and redo
-Save drawings as image files
-Better shape detection
-Text recognition
-Smoother drawing
-Improved UI
-More drawing tools
-Presentation mode
-Project Status
+- Gesture-based undo and redo
+- Save drawings as image files
+- Better shape detection
+- Text recognition
+- Smoother drawing
+- Improved UI
+- More drawing tools
+- Presentation mode
+- Project Status
 
 ## Author 
 Built by Nargess Hassani
